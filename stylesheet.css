@@ -1,0 +1,139 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.header {
+    background-color: #f9f9ff;
+}
+.container {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 48px;
+    height: 38px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+a{
+    background-color: #E6E6FA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+.inicio {
+    border: transparent;
+    padding: 15px;
+    border-radius: 24px;
+    font-size: 15px;
+    font: Times;
+    color: black;
+}
+
+.hoy {
+    border: transparent;
+    padding: 15px;
+    border-radius: 24px;
+    font-size: 15px;
+    font: Times;
+    color: black;
+}
+
+.buscar{
+    position: center;
+    padding: 5px;
+}
+
+.buscar input{
+    width: 800px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+
+.btn{
+    position: absolute;
+    top: 5%;
+    right: 16%;
+    background-color: #E6E6FA;
+    width: 55px;
+    height: 45px;
+    line-height: 55px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+img:hover {
+    background-color: silver;
+    font-variant-position: super;
+    opacity: 20%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.row{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img{
+    margin: top 5px;
+    padding: 10px;
+}
+
+.art {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery__item {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery__img {
+    border-radius: 70px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding-top: 20px;
+}
+
+.gallery__tittle {
+    font-size: 15px;
+    background-color: #E6E6FA;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 0%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
